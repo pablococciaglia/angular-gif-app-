@@ -5,7 +5,7 @@ export const environment = {
   companySlogan: 'Bringing GIFs to Life',
   giphyURL: 'https://api.giphy.com/v1/gifs',
   apiKeys: {
-    giphy: 'RQqa81yCO9mTAS1OlqgoTg4kBCwkQjBX',
+    giphy: '',
   },
   // URLs and Endpoints
 };
