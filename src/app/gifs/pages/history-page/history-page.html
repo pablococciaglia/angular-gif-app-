@@ -1,0 +1,7 @@
+<div class="mt-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+  @for (gif of imageSources(); track gif.url) {
+  <div class="rounded overflow-hidden bg-gray-100 dark:bg-gray-900">
+    <img [src]="gif.url" [alt]="gif.title || 'gif'" class="w-full h-40 object-cover" />
+  </div>
+  }
+</div>
